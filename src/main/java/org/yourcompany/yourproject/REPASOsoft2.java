@@ -11,6 +11,7 @@ package org.yourcompany.yourproject;
 public class REPASOsoft2 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Bibliotecario bibliotecario = new Bibliotecario("1", "Pepe", "pepe@gmail.com", "5 PM");
+        System.out.println(bibliotecario.darTurno());
     }
 }
